@@ -6,7 +6,8 @@ import starlightImageZoomPlugin from 'starlight-image-zoom';
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://phmoraiis.github.io/test_astro/",
+	site: "https://phmoraiis.github.io",
+	base: '/test-astro',
 	integrations: [
 		starlight({
 			plugins: [starlightImageZoomPlugin()],
