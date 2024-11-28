@@ -3,7 +3,7 @@ import nextra from 'nextra'
 
 const nextConfig: NextConfig = {
 	/* config options here */
-	basePath: "/test_astro/docs",
+	basePath: "/test_astro",
 	assetPrefix: "https://phmoraiis.github.io",
 };
 
