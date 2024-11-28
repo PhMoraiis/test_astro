@@ -3,8 +3,8 @@ import nextra from 'nextra'
 
 const nextConfig: NextConfig = {
 	/* config options here */
-	basePath: "test_astro",
-	assetPrefix: "https://phmoraiis.github.io/",
+	basePath: "/test_astro",
+	assetPrefix: "/test_astro/",
 };
 
 const withNextra = nextra({
